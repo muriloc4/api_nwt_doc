@@ -22,6 +22,8 @@ BASE_URL = http://api.nwt.net.br
 
 ***POST*** {{ base_url  }}/wpp/billetList/:cpf
 
+Sem pontuação, ex: 12345678910
+
 Irá listar os boletos do cliente. Mas caso ele tenha mais de um contrato, essa rota irá retorar: 
 
 ```json
